@@ -32,6 +32,7 @@ One entry per aggregator. Each one normalizes many books into a single schema.
 | [SportsGameOdds MCP Server](https://github.com/SportsGameOdds/sports-odds-api-typescript/tree/main/packages/mcp-server) | Official, npm | US sportsbooks; live game odds and sportsbook data | Official MCP server for the Sports Game Odds API, run with `npx sports-odds-api-mcp`. |
 | [TheRundown Data MCP](https://github.com/TheRundown/data-mcp) | Official, hosted + open source | US books, exchanges and prediction markets; main lines, futures, events, scores | Official read-only MCP for TheRundown's Product API, hosted at `mcp.therundown.io`. |
 | [PropLine MCP](https://github.com/proplineapi/propline-mcp) | Official, hosted + npm | Player props across books and DFS apps; +EV, prop resolution, scores, box scores | MCP server for the PropLine player-props odds API, listed in the official MCP Registry. |
+| [Sports Betting Stats MCP](https://github.com/GeminiGeorge22/sports-betting-stats-mcp) (maintained by us) | Hosted on Apify + open-source stdio proxy | Kambi books, DraftKings, Pinnacle and Bovada odds; PrizePicks props; ESPN scores; Understat xG; soccer closing lines; Equibase racing; Polymarket vs Kalshi | One endpoint that bundles odds, props, scores, advanced stats and historical closing lines from independent Apify Actors, one per job. |
 
 ## Sportsbook networks and single books
 
