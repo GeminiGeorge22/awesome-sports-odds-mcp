@@ -34,6 +34,8 @@ One entry per aggregator. Each one normalizes many books into a single schema.
 | [PropLine MCP](https://github.com/proplineapi/propline-mcp) | Official, hosted + npm | Player props across books and DFS apps; +EV, prop resolution, scores, box scores | MCP server for the PropLine player-props odds API, listed in the official MCP Registry. |
 | [Sports Betting Stats MCP](https://github.com/GeminiGeorge22/sports-betting-stats-mcp) (maintained by us) | Hosted on Apify + open-source stdio proxy | Kambi books, DraftKings, Pinnacle and Bovada odds; PrizePicks props; ESPN scores; Understat xG; soccer closing lines; Equibase racing; Polymarket vs Kalshi | One endpoint that bundles odds, props, scores, advanced stats and historical closing lines from independent Apify Actors, one per job. |
 
+| [KashRock](https://github.com/kashrockapi/kashrock-mcp) (maintained by us) | Official, hosted and open source | CS2, Valorant, League of Legends, Dota 2, Call of Duty, Rainbow Six, Mobile Legends, Deadlock, Apex Legends, Overwatch | MCP for esports matches, players, odds, and props where that title has them. Install: `uvx kashrock-mcp`. Hosted at `https://mcp.kashrock.com/mcp`. |
+
 ## Sportsbook networks and single books
 
 One entry per book or book network.
